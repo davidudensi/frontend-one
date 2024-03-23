@@ -21,6 +21,7 @@ EXPOSE 3000
 
 # Define environment variable
 ENV NODE_ENV=development
+ENV REACT_APP_TEST="this is an elephant"
 
 # Command to run the app
 CMD ["npm", "start"]
